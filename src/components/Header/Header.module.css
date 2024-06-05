@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.header{
+    font-family: "Roboto Mono", sans-serif;
+    text-align: center;
+    background-image: url('./../../../public/1613217901_94-p-fon-sinyaya-kletka-113.jpg');
+    background-color: black;
+    height: 820px;
+    margin-top: -100px;
+}
+
+.header__wrapper{
+    position: relative;
+    height: 820px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.header__title{
+    position: relative;
+    top: 190px;
+    margin: 0 0 190px 0;
+    font-size: 100px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    word-spacing: -30px;
+}
+
+.header__subtitle{
+    font-weight: 600;
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.header__start{
+    background-color: rgb(0, 182, 0);
+    color: white;
+    padding: 10px 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.header__start:hover{
+    background-color: rgb(0, 146, 0);
+}
