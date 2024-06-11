@@ -1,0 +1,27 @@
+.selects{
+    border: 1px solid black;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.submit{
+    border-radius: 16px;
+    border: transparent;
+    background-color: #01aa01;
+    color: white;
+    padding: 5px 0;
+    min-width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.submit:hover{
+    background-color: #008f00;
+}
